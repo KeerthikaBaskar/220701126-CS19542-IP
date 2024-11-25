@@ -13,7 +13,6 @@ function validate() {
             document.forms["form"]["phnumber"].value == "" ||
             document.forms["form"]["add"].value == "" ||
             document.forms["form"]["state"].value == "";
-
     if (x) {
         alert("All fields must be filled out.");
         return false;
